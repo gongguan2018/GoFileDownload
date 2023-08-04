@@ -49,6 +49,7 @@
 
 3、然后执行file-agent即可，会显示下载过程，如图：
 ![image](https://github.com/gongguan2018/GoFileDownload/assets/40058594/07de6f4e-36dc-4ec8-ae2d-3d5afe24f7e6)
+
 4、查看下载文件，已经下载到本地，如图：
 ![image](https://github.com/gongguan2018/GoFileDownload/assets/40058594/66e04253-fb7c-4a16-8989-b4f4353d827e)
 
