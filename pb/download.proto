@@ -1,0 +1,25 @@
+syntax = "proto3";
+package pb;
+option go_package = "./;pb";
+service DownFile {
+  //获取下载命令
+  rpc DownloadFile (DownloadRequest) returns (DownloadResponse) {}
+  //根据包名删除远程机器的下载包
+  rpc DeleteFile (DeleteRequest) returns (DeleteResponse) {}
+}
+//定义请求变量url,类型为字符串切片,DownloadRequest会转换为结构体
+message DownloadRequest {
+  repeated string downloadFiles = 1;
+}
+//返回下载状态的结构体
+message DownloadResponse {
+  repeated  string downresponse = 1;
+}
+//删除远程机器上已下载的安装包
+message DeleteRequest {
+   repeated string deleteFiles = 1;
+}
+//返回删除状态
+message DeleteResponse {
+   int64 deleteResult = 1;
+}

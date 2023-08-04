@@ -1,0 +1,15 @@
+rpcserver:
+  #serverip: 43.136.17.3
+  serverip: 137.175.36.210
+  rpcport: 8080 
+httpdserver:  #httpd的服务和rpc_server是要部署在一起的
+  httpdport: 80
+  protocol: http #此处为http还是https要根据httpd端配置而定
+requesturl:
+  # - https://github.com/containerd/containerd/releases/download/v1.7.3/containerd-1.7.3-linux-amd64.tar.gz
+  # - http://mirrors.163.com/centos/6.8/readme
+  - https://nginx.org/download/nginx-1.24.0.tar.gz
+  # - http://nginx.org/download/nginx-1.22.1.tar.gz
+  # - http://nginx.org/download/nginx-1.18.0.tar.gz
+  # - http://nginx.org/download/nginx-1.16.1.tar.gz
+  # - http://mirrors.163.com/centos/7/isos/x86_64/sha256sum.txts
