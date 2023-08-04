@@ -1,4 +1,5 @@
 server:
+  #grpc server端口
   port: 8080
   downpath: /var/www/html/downloadurl 
   #此下载路径要与httpd的路径一直，否则客户端wget的时候会找不到文件

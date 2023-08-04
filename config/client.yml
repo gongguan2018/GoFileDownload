@@ -1,6 +1,7 @@
 rpcserver:
-  #serverip: 43.136.17.3
-  serverip: 137.175.36.210
+  #grpc server的IP，根据需要填写
+  serverip: 0.0.0.0
+  #grpc server的端口，根据需要填写
   rpcport: 8080 
 httpdserver:  #httpd的服务和rpc_server是要部署在一起的
   httpdport: 80
