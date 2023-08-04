@@ -43,8 +43,10 @@
 
 1、在客户端服务器编辑client.yml文件，添加要下载的文件连接，可添加一个或者多个，如图：
 ![image](https://github.com/gongguan2018/GoFileDownload/assets/40058594/5485628d-ce58-4b92-bc5b-19458fd29c7d)
+
 2、配置grpc server的IP和端口以及http的端口和协议，如图：
 ![image](https://github.com/gongguan2018/GoFileDownload/assets/40058594/ba86ed38-0937-4d16-b958-7393d1e9f41c)
+
 3、然后执行file-agent即可，会显示下载过程，如图：
 ![image](https://github.com/gongguan2018/GoFileDownload/assets/40058594/07de6f4e-36dc-4ec8-ae2d-3d5afe24f7e6)
 4、查看下载文件，已经下载到本地，如图：
