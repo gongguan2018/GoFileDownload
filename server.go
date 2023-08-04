@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-        //读取配置
+        //读取配置文件
 	scn, err := config.ReadServerConfig()
 	if err != nil {
 		log.Fatal(err)
